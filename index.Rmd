@@ -9,3 +9,6 @@ output:
 
 # This is Wenjing Yang's website
 
+Hello! Welcome to visit Wenjing Yang's website!
+
+Here's a link to the resume page: [resume](resume.html)

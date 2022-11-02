@@ -12,3 +12,5 @@ output:
 Hello! Welcome to visit Wenjing Yang's website!
 
 Here's a link to the resume page: [resume](resume.html)
+
+Here's a link to the dashboard page which includes three 

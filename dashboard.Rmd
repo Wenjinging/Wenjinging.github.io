@@ -26,7 +26,7 @@ ny_noaa =
     snow = as.numeric(snow),
     snwd = as.numeric(snwd),
     tmax = as.numeric(tmax)/10,
-    tmin = as.numeric(tmin)/10)%>%
+    tmin = as.numeric(tmin)/10) %>%
   filter(prcp %in% 50:500)
 ```
 
@@ -55,7 +55,7 @@ Column {data-width=350}
 ```{r}
 ny_noaa %>% 
   mutate(
-      month = fct_relevel(month,c("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct", "Nov", "Dec")))%>%
+      month = fct_relevel(month,c("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct", "Nov", "Dec"))) %>%
   plot_ly(
     y = ~prcp, color = ~month,
     type = "box",colors = "viridis"

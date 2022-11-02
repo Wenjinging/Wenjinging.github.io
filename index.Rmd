@@ -11,6 +11,6 @@ output:
 
 Hello! 
 
-Welcome to Wenjing Yang's website! I am a first year graduate student who study in the mailman school of public health in Columbia university. Here's a link to my resume page: [resume](resume.html).
+Welcome to Wenjing Yang's website! I am a first year graduate student who study in the mailman school of public health in Columbia university. I am biostatistics major and theory & method track. Here's a link to my resume page: [resume](resume.html).
 
 The dashboard page includes three plots of NY  NOAA data from `p8105.datasets` package, and here is the link to [dashboard](dashboard.html).

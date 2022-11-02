@@ -26,19 +26,22 @@ Master of Science in Biostatistics (Mailman School of Public Health)
 **Business Data Analyst**——06/2021-03/2022
 
 Beijing Weimeng Chuangke Network Technology Co.,Ltd.
+
 Analyzed and processed data of important projects and key industries, generated professional analysis reports.  
 Assisted the business department to make phased marketing decision and task adjustments.
 
 **Operation Analyst of Channel Sales Management Center**——01/2021-05/2021
 
-Beijing ByteDance Technology Co., Ltd.          
+Beijing ByteDance Technology Co., Ltd.        
+
 Extract raw data from numerous data sources and aggregate it into cohesive data sets by Excel.
 Monitored daily data and completed reports regarding the analysis of the overseas business by industry and by the country of destination, consumption trends of TOP agents, new and missing client’s situation, percentage of active clients in the head, waist, and tail parts.
 Sorted out the mapping relationship between clients and agent groups.
 
 **Operation Analyst of LA Operation Center**——08/2020-12/2020
 
-Beijing ByteDance Technology Co., Ltd.                      
+Beijing ByteDance Technology Co., Ltd.    
+
 Collected daily consumption data, focused on the key points and node points, and completed daily, monthly and bimonthly reports and milestones supervision regarding analysis of consumption trends, trend analysis of key industries, and the comparison between the trend of consumption completion rate.
 Analyzed the consumption estimation of each branch, monitored the estimation completion rate, and build data system to make phased task adjustment if there was a big gap via BI.
 Evaluated and calculated the health degree of each branch at the end of the quarter by Excel.
@@ -49,6 +52,7 @@ Collaborate with marketing and risk control departments in the assisting the pro
 **Research on Water Purification**——08/2019-05/2020
 
 Advisor: Prof. Benjamin Hsiao                            
+
 Bleached cellulose extracted from plants, mixed under the acid and absolute light-avoiding environment to remove pigment and repeated the bleaching processes to get the white cellulose. 
 To make the white cellulose have the similar conductivity with water, put the cellulose to the special plastic test tubes with each tube of the same weight, and put six tubes in one group to the centrifugal machine for five minutes’ centrifugation.
 Used the pipette to get the solution out of the tube, added clean water while keeping the cellulose under the bottom of the tube, repeated centrifugation for about ten times to make the cellulose have the nearly same conductivity as water.  

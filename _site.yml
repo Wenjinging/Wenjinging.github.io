@@ -11,6 +11,8 @@ navbar:
       href: mailto:<wy2369@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/Wenjinging/
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/wenjing-yang-144a87255/
 output:
   html_document:
     theme: cosmo

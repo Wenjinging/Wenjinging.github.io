@@ -13,27 +13,64 @@ library(plotly)
 library(flexdashboard)
 ```
 
+```{r,include=FALSE}
+data("ny_noaa")
+ny_noaa = 
+  ny_noaa %>% 
+   janitor::clean_names() %>%
+  separate(date, into = c("year","month","day") ) %>%
+  mutate(
+    month = as.integer(month),
+    month = month.abb[month],
+    prcp = as.numeric(prcp)/10,
+    snow = as.numeric(snow),
+    snwd = as.numeric(snwd),
+    tmax = as.numeric(tmax)/10,
+    tmin = as.numeric(tmin)/10)%>%
+  filter(prcp %in% 50:500)
+```
+
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### max temp vs min temp
 
 ```{r}
-
+ny_noaa %>%
+  mutate(
+    text_label = str_c("Date: ", month,day,year)
+  ) %>%
+  plot_ly(
+    x = ~tmax, y = ~tmin, color = ~snow,
+    type = "scatter", mode = "markers",
+    alpha =.5, text = ~text_label
+  )
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Boxplot of prcp by month 
 
 ```{r}
-
+ny_noaa %>% 
+  mutate(
+      month = fct_relevel(month,c("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct", "Nov", "Dec")))%>%
+  plot_ly(
+    y = ~prcp, color = ~month,
+    type = "box",colors = "viridis"
+  )
 ```
 
-### Chart C
+### Barplot of total number of snowday by year
 
 ```{r}
-
+ny_noaa %>%
+  count(year) %>%
+  mutate(year = fct_reorder(year,n)) %>%
+  plot_ly(
+    x = ~year, y =~n,
+    type = "bar"
+  )
 ```
 
